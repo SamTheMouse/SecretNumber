@@ -1,6 +1,6 @@
-import randint from 'random.js'
-
 const config = require('./config.json')
+
+const { random } = require('./randomjs')
 
 const game_name = config["game"]["name"]
 const game_version = config["game"]["version"]

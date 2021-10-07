@@ -9,11 +9,11 @@
 ## Quick start 
  
 ```bash
-git clone https://github.com/SamTheMouse/SecretNumber.git
+git clone --recurse-submodules https://github.com/SamTheMouse/SecretNumber.git
 cd SecretNumber
 ```
 
 ```bash
-node script.js
+npm install
+npm start
 ```
-
