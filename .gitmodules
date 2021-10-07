@@ -1,0 +1,3 @@
+[submodule "randomjs"]
+	path = randomjs
+	url = https://github.com/OrnithOrtion/randomjs
