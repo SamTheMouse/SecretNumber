@@ -1,0 +1,19 @@
+{
+    "game": {
+        "name": "The Secret Number",
+        "version": "0.0.0",
+        "author": "SamTheMouse",
+        "creation_date": "2021-10-07",
+        "parameters": {
+            "number": {
+                "range": {
+                    "min": "-10",
+                    "max": "10"
+                },
+                "generation_method": "random",
+                "attempt_permitted": 3
+            }
+        }
+
+    }
+}
