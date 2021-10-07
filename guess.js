@@ -1,4 +1,4 @@
-import randint from 'random.js'
+const random = require('random')
 
 const config = require('./config.json')
 
@@ -15,7 +15,7 @@ var secret_number
 let attempt_left = parameters["attempt_permitted"]
 
 function init_number(min, max) {
-    return randint(min, max)
+    return random.randint(min, max)
 }
 
 function game_loop() {
