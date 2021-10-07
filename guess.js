@@ -1,6 +1,6 @@
-const config = require('./config.json')
+const random = require('random')
 
-const { random } = require('./randomjs')
+const config = require('./config.json')
 
 const game_name = config["game"]["name"]
 const game_version = config["game"]["version"]
@@ -15,7 +15,7 @@ var secret_number
 let attempt_left = parameters["attempt_permitted"]
 
 function init_number(min, max) {
-    return randint(min, max)
+    return random.randint(min, max)
 }
 
 function game_loop() {
