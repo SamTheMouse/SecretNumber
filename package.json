@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/SamTheMouse/SecretNumber#readme",
   "dependencies": {
+    "prompt": "^1.2.0",
     "random": "file:randomjs"
   }
 }
